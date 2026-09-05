@@ -1,74 +1,151 @@
-# Privacy Policy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Exotic Pet Tracker</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            background-color: #f8fafc;
+        }
+        .container {
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0f766e;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        h2 {
+            color: #111827;
+            margin-top: 2rem;
+            font-size: 1.25rem;
+        }
+        h3 {
+            color: #374151;
+            font-size: 1.05rem;
+            margin-top: 1.25rem;
+        }
+        p, li {
+            color: #4b5563;
+        }
+        ul {
+            padding-left: 1.25rem;
+        }
+        a {
+            color: #0d9488;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .date {
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #e2e8f0;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="date">Last updated: August 30, 2026</div>
 
-Last updated: August 30, 2026
+        <p>This Privacy Policy describes how Exotic Pet Tracker ("we", "us", or "our") handles your information when you use our mobile application (the "Service").</p>
 
-This Privacy Policy describes how Exotic Pet Tracker ("we", "us", or "our") handles your information when you use our mobile application (the "Service").
+        <p>We are committed to protecting your privacy. Exotic Pet Tracker is designed with a <strong>privacy-first architecture</strong>—your pet data, health logs, husbandry notes, and photos are stored locally on your device or backed up directly to your personal Google Drive account. We do not host or store your personal pet data on external application servers.</p>
 
-We are committed to protecting your privacy. Exotic Pet Tracker is designed with a **privacy-first architecture**—your pet data, health logs, husbandry notes, and photos are stored locally on your device or backed up directly to your personal Google Drive account. We do not host or store your personal pet data on external application servers.
+        <hr>
 
----
+        <h2>1. Information Collection and Use</h2>
 
-## 1. Information Collection and Use
+        <h3>A. User-Provided Data (Stored Locally)</h3>
+        <p>While using our Service, you may enter personal information regarding your animals, including:</p>
+        <ul>
+            <li>Pet names, species, morphs, and hatch/birth dates.</li>
+            <li>Feeding logs, weight tracking data, enclosure environmental logs (temperature/humidity), and custom event notes.</li>
+            <li>Photos uploaded from your device camera or photo gallery.</li>
+        </ul>
+        <p><strong>All of this data remains stored strictly on your local device hardware</strong> using an encrypted local database (Isar).</p>
 
-### A. User-Provided Data (Stored Locally)
-While using our Service, you may enter personal information regarding your animals, including:
-* Pet names, species, morphs, and hatch/birth dates.
-* Feeding logs, weight tracking data, enclosure environmental logs (temperature/humidity), and custom event notes.
-* Photos uploaded from your device camera or photo gallery.
+        <h3>B. Device and Service Information</h3>
+        <p>When using the app, third-party services integrated into the app may collect standard technical information automatically, including:</p>
+        <ul>
+            <li>Device model, operating system version, and unique device identifiers (e.g., Android Advertising ID).</li>
+            <li>Anonymous usage statistics and in-app purchase transaction tokens.</li>
+        </ul>
 
-**All of this data remains stored strictly on your local device hardware** using an encrypted local database (Isar).
+        <hr>
 
-### B. Device and Service Information
-When using the app, third-party services integrated into the app may collect standard technical information automatically, including:
-* Device model, operating system version, and unique device identifiers (e.g., Android Advertising ID).
-* Anonymous usage statistics and in-app purchase transaction tokens.
+        <h2>2. Third-Party Services & Integrations</h2>
+        <p>Our app integrates trusted third-party SDKs to provide monetization, subscription management, and optional cloud backups. These third parties collect data according to their own privacy policies:</p>
+        <ul>
+            <li>
+                <strong>Google Play Services:</strong> Used for app infrastructure, device security, and core platform capabilities.<br>
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play Services Privacy Policy</a>
+            </li>
+            <li>
+                <strong>Google AdMob:</strong> Serves banner and interstitial advertisements in the free version of the app. AdMob may use device advertising IDs to serve contextual or personalized ads.<br>
+                <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Google AdMob Privacy Policy</a>
+            </li>
+            <li>
+                <strong>RevenueCat:</strong> Manages in-app purchases, subscription entitlements (Pro Tier / Remove Ads), and transaction validation. RevenueCat handles anonymous app user IDs and store receipts.<br>
+                <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a>
+            </li>
+            <li>
+                <strong>Google Drive API & Google Sign-In:</strong> Used exclusively to perform automated or manual backups of your local database file (<code>default.isar</code>) directly to your personal Google Drive space. We do not have access to your Google password, account credentials, or drive files.<br>
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>
+            </li>
+        </ul>
 
----
+        <hr>
 
-## 2. Third-Party Services & Integrations
+        <h2>3. Data Storage, Sync, and Portability</h2>
+        <ul>
+            <li><strong>Local Control:</strong> Your records are stored in your device's application directory. If you uninstall the app without performing a cloud backup, your local logs will be permanently deleted.</li>
+            <li><strong>Cloud Sync:</strong> Cloud backup operations transfer your data securely and directly between your device and your private Google Drive storage. No data passes through any third-party developer server during this process.</li>
+            <li><strong>Exports:</strong> Pro subscribers can export complete health records as PDF or CSV files at any time for local sharing or veterinary appointments.</li>
+        </ul>
 
-Our app integrates trusted third-party SDKs to provide monetization, subscription management, and optional cloud backups. These third parties collect data according to their own privacy policies:
+        <hr>
 
-* **Google Play Services:** Used for app infrastructure, device security, and core platform capabilities.  
-  [Google Play Services Privacy Policy](https://policies.google.com/privacy)
-* **Google AdMob:** Serves banner and interstitial advertisements in the free version of the app. AdMob may use device advertising IDs to serve contextual or personalized ads.  
-  [Google AdMob Privacy Policy](https://support.google.com/admob/answer/6128543)
-* **RevenueCat:** Manages in-app purchases, subscription entitlements (Pro Tier / Remove Ads), and transaction validation. RevenueCat handles anonymous app user IDs and store receipts.  
-  [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
-* **Google Drive API & Google Sign-In:** Used exclusively to perform automated or manual backups of your local database file (`default.isar`) directly to your personal Google Drive space. We do not have access to your Google password, account credentials, or drive files.  
-  [Google Privacy Policy](https://policies.google.com/privacy)
+        <h2>4. Children's Privacy</h2>
+        <p>Exotic Pet Tracker does not knowingly collect or solicit personally identifiable information from children under the age of 13. If you learn that a child has provided us with personal information, please contact us so that we can delete such data immediately.</p>
 
----
+        <hr>
 
-## 3. Data Storage, Sync, and Portability
+        <h2>5. User Privacy Choices & Opt-Outs</h2>
+        <ul>
+            <li><strong>Ad Tracking:</strong> You can reset or restrict your Advertising ID at any time through your Android device settings (<strong>Settings > Privacy > Ads</strong>).</li>
+            <li><strong>Ad Removal:</strong> Upgrading to the <strong>Remove Ads</strong> or <strong>Pro Tier</strong> permanently disables Google AdMob ad requests and advertising identifier tracking within the app.</li>
+        </ul>
 
-* **Local Control:** Your records are stored in your device's application directory. If you uninstall the app without performing a cloud backup, your local logs will be permanently deleted.
-* **Cloud Sync:** Cloud backup operations transfer your data securely and directly between your device and your private Google Drive storage. No data passes through any third-party developer server during this process.
-* **Exports:** Pro subscribers can export complete health records as PDF or CSV files at any time for local sharing or veterinary appointments.
+        <hr>
 
----
+        <h2>6. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top of this document.</p>
 
-## 4. Children's Privacy
+        <hr>
 
-Exotic Pet Tracker does not knowingly collect or solicit personally identifiable information from children under the age of 13. If you learn that a child has provided us with personal information, please contact us so that we can delete such data immediately.
-
----
-
-## 5. User Privacy Choices & Opt-Outs
-
-* **Ad Tracking:** You can reset or restrict your Advertising ID at any time through your Android device settings (**Settings > Privacy > Ads**).
-* **Ad Removal:** Upgrading to the **Remove Ads** or **Pro Tier** permanently disables Google AdMob ad requests and advertising identifier tracking within the app.
-
----
-
-## 6. Changes to This Privacy Policy
-
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top of this document.
-
----
-
-## 7. Contact Us
-
-If you have any questions, suggestions, or privacy concerns regarding this Privacy Policy, please contact us at:
-
-**Support Email:** cma.inspira@gmail.com
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions, suggestions, or privacy concerns regarding this Privacy Policy, please contact us at:</p>
+        <p><strong>Support Email:</strong> <a href="mailto:cma.inspira@gmail.com">cma.inspira@gmail.com</a></p>
+    </div>
+</body>
+</html>
